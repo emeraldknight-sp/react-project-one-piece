@@ -1,15 +1,16 @@
 import { useState } from "react";
 
+import { Nav } from "../../components/Nav";
+import { Main } from "../../components/Main";
+import { Section } from "../../components/Section";
 import { Button } from "../../components/Button";
+
 import { characters } from "../../mock/characters";
 import { icons } from "../../mock/icons";
 
 import OnePieceLogo from "../../assets/one-piece-logo.webp";
 
 import { StyledHome } from "./Home.style";
-import { Nav } from "../../components/Nav";
-import { Main } from "../../components/Main";
-import { Section } from "../../components/Section";
 
 export const Home = () => {
 	const [count, setCount] = useState(0);
