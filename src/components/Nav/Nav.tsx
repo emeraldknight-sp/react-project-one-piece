@@ -1,4 +1,4 @@
-import { ComponentProps } from "../../interfaces/ComponentProps";
+import { ComponentProps } from "../../interfaces/AppProps";
 import { StyledNav } from "./Nav.style";
 
 export const Nav = ({ children }: ComponentProps) => {

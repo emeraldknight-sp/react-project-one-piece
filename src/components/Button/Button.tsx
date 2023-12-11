@@ -1,4 +1,4 @@
-import { ButtonProps } from "../../interfaces/Button";
+import { ButtonProps } from "../../interfaces/AppProps";
 import { StyledButton } from "./Button.style";
 
 export const Button = ({

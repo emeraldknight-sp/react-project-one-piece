@@ -1,4 +1,4 @@
-import { ComponentProps } from "../../interfaces/ComponentProps";
+import { ComponentProps } from "../../interfaces/AppProps";
 import { StyledMain } from "./Main.style";
 
 export const Main = ({ children }: ComponentProps) => {

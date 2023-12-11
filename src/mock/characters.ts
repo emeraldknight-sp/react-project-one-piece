@@ -1,4 +1,4 @@
-import { Character } from "../interfaces/Character";
+import { CharacterProps } from "../interfaces/AppProps";
 
 import backgroundChopper from "../assets/personagem-tony-chopper.webp";
 import backgroundZoro from "../assets/personagem-roronoa-zoro.webp";
@@ -6,7 +6,7 @@ import backgroundLuffy from "../assets/personagem-monkey-d-luffy.webp";
 import backgroundNami from "../assets/personagem-nami.webp";
 import backgroundSanji from "../assets/personagem-sanji.webp";
 
-export const characters: Character[] = [
+export const characters: CharacterProps[] = [
 	{
 		name: "Tony Chopper",
 		description:

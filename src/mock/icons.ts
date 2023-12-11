@@ -1,4 +1,4 @@
-import { Icon } from "../interfaces/Icon";
+import { IconProps } from "../interfaces/AppProps";
 
 import iconChopper from "../assets/tripulacao-chopper.webp";
 import iconZoro from "../assets/tripulacao-zoro.webp";
@@ -6,7 +6,7 @@ import iconLuffy from "../assets/tripulacao-luffy.webp";
 import iconNami from "../assets/tripulacao-nami.webp";
 import iconSanji from "../assets/tripulacao-sanji.webp";
 
-export const icons: Icon[] = [
+export const icons: IconProps[] = [
 	{
 		src: iconChopper,
 		alt: "chopper crew",
