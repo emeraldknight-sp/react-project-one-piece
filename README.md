@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<h1 align="center">Project: One Piece</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="logo" src=".github/project.webp" width="50%">
+</p>
 
-## Available Scripts
+This is a project that involves creating a web page to present information about the characters of One Piece, a Japanese animation known worldwide for anime, this project contains React, Styled-components e Typescript.
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-### `yarn start`
+## 🔗 Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/davidalmeidadev)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://instagram.com/davidalmeidadev)
+[![Brave](https://img.shields.io/badge/Portfolio-yellow?style=for-the-badge&logo=Brave&logoColor=white)](https://react-project-portfolio.vercel.app/)
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologies
 
-### `yarn test`
+This project was developed with the following technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML5, CSS3, JS ES6+
+- [Node e Yarn](https://nodejs.org/)
+- [React.js](https://react.dev/learn)
+- [Styled-components](https://styled-components.com/docs)
+- [Typescript](https://www.typescriptlang.org/docs/)
 
-### `yarn build`
+## 💻 Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project consists of an interactive web page to present the characters from the anime "One Piece". It uses React as the main library, TypeScript to add static types, Styled Components for styling. Development tools such as ESLint and Prettier are configured to maintain consistent code. The project aims to create a visually appealing, interactive and intuitive experience for "One Piece" fans.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏡 Get started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Installing project dependencies
 
-### `yarn eject`
+```sh
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Application initialization
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Application build
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+yarn build
+```
 
-## Learn More
+## 🔖 Layout
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can view the project layout here.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+  <img alt="layout" src=".github/layout.webp" width="100%">
+</p>
 
-### Code Splitting
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is under the [MIT license](./LICENSE).
