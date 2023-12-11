@@ -10,11 +10,6 @@ export const StyledNav = styled.nav`
 	position: relative;
 	z-index: 1;
 
-	img {
-		border-radius: 50%;
-		width: 100%;
-	}
-
 	@media (min-width: 768px) {
 		justify-content: space-around;
 		background: rgba(0, 0, 0, 0.5);

@@ -9,6 +9,12 @@ export const StyledButton = styled.button`
 	outline: none;
 	transition: all 0.3s;
 
+	img {
+		border-radius: 50%;
+		width: 100%;
+		height: auto;
+	}
+
 	&:hover {
 		transform: scale(1.1);
 	}
