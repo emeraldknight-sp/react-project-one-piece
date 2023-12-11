@@ -7,7 +7,7 @@ export const StyledButton = styled.button`
 	border-radius: 50%;
 	cursor: pointer;
 	outline: none;
-	transition: all 0.6s;
+	transition: all 0.3s;
 
 	&:hover {
 		transform: scale(1.1);
