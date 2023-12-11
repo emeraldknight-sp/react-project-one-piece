@@ -13,7 +13,7 @@ import OnePieceLogo from "../../assets/one-piece-logo.webp";
 import { StyledHome } from "./Home.style";
 
 export const Home = () => {
-	const [count, setCount] = useState(0);
+	const [count, setCount] = useState(2);
 
 	return (
 		<StyledHome
