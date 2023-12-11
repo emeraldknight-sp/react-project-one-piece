@@ -6,7 +6,10 @@ import { icons } from "../../mock/icons";
 
 import OnePieceLogo from "../../assets/one-piece-logo.webp";
 
-import { StyledHome, StyledMain, StyledNav, StyledSection } from "./Home.style";
+import { StyledHome } from "./Home.style";
+import { Nav } from "../../components/Nav";
+import { Main } from "../../components/Main";
+import { Section } from "../../components/Section";
 
 export const Home = () => {
 	const [count, setCount] = useState(0);
@@ -20,14 +23,14 @@ export const Home = () => {
 				objectFit: "cover",
 			}}
 		>
-			<StyledMain>
-				<StyledSection>
+			<Main>
+				<Section>
 					<img src={OnePieceLogo} alt="one piece logo" width={200} />
 					<h2>{characters[count].name}</h2>
 					<p>{characters[count].description}</p>
-				</StyledSection>
-			</StyledMain>
-			<StyledNav>
+				</Section>
+			</Main>
+			<Nav>
 				{icons.map((icon, index) => (
 					<Button
 						key={index}
@@ -38,7 +41,7 @@ export const Home = () => {
 						<img src={icon.src} alt={icon.alt} />
 					</Button>
 				))}
-			</StyledNav>
+			</Nav>
 		</StyledHome>
 	);
 };
