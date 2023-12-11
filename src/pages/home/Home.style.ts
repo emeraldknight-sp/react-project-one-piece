@@ -10,7 +10,7 @@ export const StyledHome = styled.div`
 
 	h2 {
 		color: white;
-		font-size: 48px;
+		font-size: 3rem;
 		font-family: var(--tipography-content--title);
 		font-weight: 400;
 	}
@@ -18,7 +18,7 @@ export const StyledHome = styled.div`
 	p {
 		color: white;
 		font-family: var(--tipography-content--description);
-		line-height: 24px;
+		line-height: 1.5rem;
 		font-weight: 400;
 	}
 
